@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="clidev",
+    name="clidec",
     version="0.0.1",
     author="Steffen Siering",
     description="Build command line tools with sub-commands using decorators.",
@@ -12,7 +12,5 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/urso/clidec",
     packages=find_packages(),
-    install_requires=[
-        'argparse',
-    ],
+    install_requires=[],
 )
